@@ -1,0 +1,18 @@
+.popup__close-button {
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin: -40px 0 0 395px;
+    position: absolute;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+
+}

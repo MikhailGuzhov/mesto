@@ -1,0 +1,16 @@
+.elements__element {
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 282px;
+    height: 361px;
+    margin-right: 0;
+    border-radius: 5%;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 776px) {
+    .elements__element {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

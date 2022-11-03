@@ -1,0 +1,23 @@
+.profile {
+    display: flex;
+    max-width: 1280px;
+    margin: 40px 200px 0;
+}
+
+@media screen and (max-width: 1046px) {
+    .profile {
+        max-width: 1045px;
+        margin: 0 auto;
+        flex-direction: column;
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile {
+
+        width: 100%;
+
+        background-color: blueviolet;
+    }
+}

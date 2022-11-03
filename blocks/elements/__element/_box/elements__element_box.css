@@ -1,0 +1,5 @@
+.elements__element_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

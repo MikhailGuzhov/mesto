@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/vendor/fonts/inter.css">
+    <link rel="stylesheet" href="/blocks/pages/index.css">
+
+
+
+    <title>Места России</title>
+</head>
+
+<body class="root">
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" alt="логотип" src="image/logo.png">
+            <div class="header__line"></div>
+        </header>
+
+        <div class="profile">
+            <img class="profile__avatar" alt="Жак Ив Кусто" src="image/image.jpg">
+            <div class="profile__info">
+                <h2 class="profile__info_title">Жак-Ив Кусто</h2>
+                <p class="profile__info_subtitle">Исследователь океана</p>
+            </div>
+
+            <button class="profile__edit-button" onclick="openPopup()" type="button">
+                <img class="profile__edit-button_vector" alt="Редактирование" src="image/Vector.png">
+            </button>
+
+            <button class="profile__add-button" type="button">
+                <img class="profile__add-button_vector" alt="Редактирование" src="image/Vector buttom.png">
+            </button>
+        </div>
+
+
+
+
+        <div class="elements">
+            <div class="elements__element">
+                <img class="elements__element_image" alt="Редактирование"
+                    src="image/kirill-pershin-1088404-unsplash.jpg">
+                <div class="elements__element_box">
+                    <p class="elements__element_title">Карачаевск</p>
+                    <img class="elements__element_heart" alt="Редактирование" src="image/Vector (Stroke).png">
+                </div>
+            </div>
+
+            <div class="elements__element">
+                <img class="elements__element_image" alt="Редактирование"
+                    src="image/kirill-pershin-1404681-unsplash (1).jpg">
+                <div class="elements__element_box">
+                    <p class="elements__element_title">Гора Эльбрус</p>
+                    <img class="elements__element_heart" alt="Редактирование" src="image/Vector (Stroke).png">
+                </div>
+            </div>
+
+            <div class="elements__element">
+                <img class="elements__element_image" alt="Редактирование"
+                    src="image/kirill-pershin-1556355-unsplash (1).jpg">
+                <div class="elements__element_box">
+                    <p class="elements__element_title">Домбай</p>
+                    <img class="elements__element_heart" alt="Редактирование" src="image/Vector (Stroke).png">
+                </div>
+            </div>
+
+            <div class="elements__element">
+                <img class="elements__element_image" alt="Редактирование"
+                    src="image/kirill-pershin-1404681-unsplash (1).jpg">
+                <div class="elements__element_box">
+                    <p class="elements__element_title">Гора Эльбрус</p>
+                    <img class="elements__element_heart" alt="Редактирование" src="image/Vector (Stroke).png">
+                </div>
+            </div>
+
+            <div class="elements__element">
+                <img class="elements__element_image" alt="Редактирование"
+                    src="image/kirill-pershin-1556355-unsplash (1).jpg">
+                <div class="elements__element_box">
+                    <p class="elements__element_title">Домбай</p>
+                    <img class="elements__element_heart" alt="Редактирование" src="image/Vector (Stroke).png">
+                </div>
+            </div>
+
+            <div class="elements__element">
+                <img class="elements__element_image" alt="Редактирование"
+                    src="image/kirill-pershin-1088404-unsplash.jpg">
+                <div class="elements__element_box">
+                    <p class="elements__element_title">Карачаево-черкессия</p>
+                    <img class="elements__element_heart" alt="Редактирование" src="image/Vector (Stroke).png">
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p class="footer__autor">&COPY; 2022г. Гужов Михаил</p>
+            </footer>
+
+
+        </div>
+
+    </div>
+    <form class="popup" id="popup">
+        <div class="popup__content">
+            <button class="popup__close-button" onclick="closePopup()">X</button>
+            <h3 class="popup__title">Редактировать профиль</h3>
+            <div class="popup__form">
+                <input class="popup__input popup__input_type_name" name="name" type="text" required minlength="2"
+                    maxlength="25" placeholder="Имя">
+                <input class="popup__input popup__input_type_description" value="" name="description" type="text"
+                    required minlength="2" maxlength="35" placeholder="О себе">
+                <button class="popup__button" id="submit" type="submit" value="Сохранить">Сохранить</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
